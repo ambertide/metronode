@@ -1,4 +1,4 @@
-package metronode
+package common
 
 type Edge struct {
 	A      *Station

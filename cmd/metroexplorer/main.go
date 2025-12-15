@@ -8,8 +8,14 @@ import (
 
 func main() {
 	log.SetFlags(log.LstdFlags)
-	line := metronode.ExtractMetronodes("M1")
 	data := metroexplorer.FetchMetroSystemData("IZBAN")
-	println(data)
-	print(line.GetLineData())
+	graph, _ := metronode.ExtractMetronodes("IZBAN", data)
+	currentNode := graph.Start
+	for currentNode != nil {
+		println(currentNode.Name)
+		if currentNode.Departing == nil {
+			break
+		}
+		currentNode = currentNode.Departing.B
+	}
 }
