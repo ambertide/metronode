@@ -1,9 +1,12 @@
 package common
 
+import "structs"
+
 type Edge struct {
 	A      *Station
 	B      *Station
 	Active bool
+	layout structs.HostLayout
 }
 
 type Station struct {
@@ -11,12 +14,14 @@ type Station struct {
 	Departing *Edge
 	Active    bool
 	Name      string
+	layout    structs.HostLayout
 }
 
 type Line struct {
-	Start *Station
-	Stop  *Station
-	Name  string
+	Start  *Station
+	Stop   *Station
+	Name   string
+	layout structs.HostLayout
 }
 
 func (l *Line) GetLineData() string {

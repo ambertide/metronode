@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ambertide/metromap/internal/cmd/metroexplorer"
-	"ambertide/metromap/pkg/metronode"
+	"ambertide/metronode/internal/cmd/metroexplorer"
+	"ambertide/metronode/pkg/metronode"
 	"log"
 )
 

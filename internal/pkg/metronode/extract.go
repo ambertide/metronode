@@ -1,8 +1,8 @@
 package metronode
 
 import (
-	common "ambertide/metromap/internal/pkg/metronode/common"
-	referencetypes "ambertide/metromap/internal/pkg/metronode/reference_types"
+	common "ambertide/metronode/internal/pkg/metronode/common"
+	referencetypes "ambertide/metronode/internal/pkg/metronode/reference_types"
 	"errors"
 )
 

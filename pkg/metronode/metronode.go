@@ -1,8 +1,8 @@
 package metronode
 
 import (
-	"ambertide/metromap/internal/pkg/metronode"
-	common "ambertide/metromap/internal/pkg/metronode/common"
+	"ambertide/metronode/internal/pkg/metronode"
+	common "ambertide/metronode/internal/pkg/metronode/common"
 )
 
 func ExtractMetronodes_(name string) *common.Line {

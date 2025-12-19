@@ -1,3 +1,3 @@
-module ambertide/metromap
+module ambertide/metronode
 
-go 1.20
+go 1.24

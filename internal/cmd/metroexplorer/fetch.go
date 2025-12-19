@@ -1,7 +1,7 @@
 package metroexplorer
 
 import (
-	metronode "ambertide/metromap/internal/pkg/metronode"
+	metronode "ambertide/metronode/internal/pkg/metronode"
 	io "io"
 	"log"
 	http "net/http"

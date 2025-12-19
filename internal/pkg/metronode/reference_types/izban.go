@@ -1,7 +1,7 @@
 package metronode
 
 import (
-	metronode "ambertide/metromap/internal/pkg/metronode/common"
+	metronode "ambertide/metronode/internal/pkg/metronode/common"
 	"cmp"
 	"encoding/json"
 	"slices"
